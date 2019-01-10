@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Banking.Models;
 
 namespace Banking.CoreProcess
@@ -9,7 +10,7 @@ namespace Banking.CoreProcess
         private static string[] column= new string[] {"Id", "Username", "HashPassowrd", "Name", "Type", "Phone", "Balance"};
         private static string[] bankAccountColumn = new string[] {"BankAccountId", "UserId", "BankAccountName", "Balance" };
         private readonly DbHelper dbHelper;
-        public UserHelper(SQLServerDbHelper _dbHelper)
+        public UserHelper(DbHelper _dbHelper)
         {
             dbHelper = _dbHelper;
         }
@@ -23,6 +24,16 @@ namespace Banking.CoreProcess
         {
             bankAccount.UserId = user.Id;
             dbHelper.update("BankAccount", bankAccountColumn, new object[] { bankAccount.BankAccountId, bankAccount.UserId, bankAccount.BankAccountName, bankAccount.Balance });
+        }
+
+        internal List<int> getAccountList(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal BankAccount getAccountDetail(int id, int bankAccountId)
+        {
+            throw new NotImplementedException();
         }
     }
 }

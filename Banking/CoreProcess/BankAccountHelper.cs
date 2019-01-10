@@ -1,5 +1,6 @@
 ﻿using System;
 using Banking.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Banking.CoreProcess
 {
@@ -21,6 +22,21 @@ namespace Banking.CoreProcess
         }
 
         internal void deposit(BankAccount bankAccount, long amount)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal int getRemain(int bankAccountId)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void addRemain(int receiveBankAccount, int delRemain)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal IActionResult getAccountInformation(int bankAccountId)
         {
             throw new NotImplementedException();
         }
