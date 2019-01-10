@@ -12530,23 +12530,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tranh\\.nuget\\packages\\": {},
+    "C:\\Users\\Quy Quang\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tranh\\source\\repos\\Banking\\Banking\\Banking.csproj",
+      "projectUniqueName": "D:\\Software Architect\\banking-ktmt\\Banking\\Banking.csproj",
       "projectName": "Banking",
-      "projectPath": "C:\\Users\\tranh\\source\\repos\\Banking\\Banking\\Banking.csproj",
-      "packagesPath": "C:\\Users\\tranh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tranh\\source\\repos\\Banking\\Banking\\obj\\",
+      "projectPath": "D:\\Software Architect\\banking-ktmt\\Banking\\Banking.csproj",
+      "packagesPath": "C:\\Users\\Quy Quang\\.nuget\\packages\\",
+      "outputPath": "D:\\Software Architect\\banking-ktmt\\Banking\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\tranh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Quy Quang\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
